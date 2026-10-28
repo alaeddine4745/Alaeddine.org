@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدخل إلى الأساسيات - Alaeddine Cyber Lab</title>
+    <!-- كود إعلانات Google AdSense الأساسي -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3990378936003984" crossorigin="anonymous"></script>
+    
+    <style>
+        :root {
+            --primary-color: #0d1117;
+            --accent-color: #58a6ff;
+            --bg-color: #010409;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --border-color: #30363d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--accent-color);
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-right: 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 15px;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+        }
+
+        main {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .sidebar-card {
+            background-color: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        /* تنسيق أماكن الإعلانات */
+        .ads-box {
+            background-color: #21262d;
+            border: 1px dashed var(--accent-color);
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0;
+            min-height: 90px;
+        }
+
+        .ads-label {
+            font-size: 0.75rem;
+            color: #8b949e;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        h2, h3 {
+            color: #f0f6fc;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        code {
+            background-color: #21262d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #ff7b72;
+            font-family: monospace;
+        }
+
+        footer {
+            text-style: center;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Alaeddine Cyber Lab</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="#">المقالات</a>
+            <a href="#">الكورسات</a>
+            <a href="privacy.html">سياسة الخصوصية</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- المحتوى الرئيسي للمقال أو الكورس -->
+        <main>
+            <h2>كورس: أساسيات الأمن السيبراني واختبار الاختراق</h2>
+            <p>مرحباً بك في هذا المقال التعليمي المجاني. سنستعرض فيه مفهوم الثغرات الأمنية وكيفية حماية التطبيقات باستخدام أفضل الممارسات.</p>
+
+            <!-- إعلان أعلى المحتوى -->
+            <div class="ads-box">
+                <span class="ads-label">إعلان AdSense (أعلى المقال)</span>
+                <!-- ضع كود الإعلان المباشر هنا -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-3990378936003984"
+                     data-ad-slot="1234567890"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h3>1. مقدمة في فحص الأخطاء البرمجية</h3>
+            <p>أثناء تطويرك للبرامج بلغة <code>Python</code> أو <code>Go</code>، من المهم استخدام أدوات الفحص التلقائي مثل <code>Nmap</code> للشبكات لتقييم المنافذ المفتوحة.</p>
+
+            <p>تذكر دائماً أن التوثيق الجيد واتباع معايير OWASP يضمن لك بناء تطبيقات آمنة ومحمية من الهجمات الأكثر شيوماً.</p>
+
+            <!-- إعلان وسط المحتوى -->
+            <div class="ads-box">
+                <span class="ads-label">إعلان AdSense (منتصف المقال)</span>
+                <!-- ضع كود الإعلان المباشر هنا -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-3990378936003984"
+                     data-ad-slot="0987654321"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h3>2. التطبيق العملي</h3>
+            <p>يمكنك البدء بتطبيق ما تعلمته في البيئات الافتراضية مثل Kali Linux للتأكد من سلامة الخوادم قبل رفعها للبيئة الحقيقية.</p>
+        </main>
+
+        <!-- الشريط الجانبي (Sidebar) -->
+        <aside>
+            <div class="sidebar-card">
+                <h3>عن الكاتب</h3>
+                <p>مرحباً! أنا علاء الدين، باحث في الأمن السيبراني ومطور برمجيات. أشارك معكم دروساً ومقالات مجانية في التقنية.</p>
+            </div>
+
+            <!-- إعلان الشريط الجانبي -->
+            <div class="sidebar-card">
+                <div class="ads-box" style="min-height: 250px;">
+                    <span class="ads-label">إعلان جانبي</span>
+                    <!-- كود إعلان مربع أو عمودي -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-3990378936003984"
+                         data-ad-slot="1122334455"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Alaeddine.org - جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
